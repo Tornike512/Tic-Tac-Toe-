@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(26, 50, 128);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  width: 40rem;
+  height: 30rem;
+  margin-top: 5rem;
+  background-color: rgb(4, 4, 43);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+
+  &__grid {
+    background-color: red;
+  }
+}
