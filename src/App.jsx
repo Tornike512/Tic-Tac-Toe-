@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="background">
-        <Symbols></Symbols>
+        <Symbols />
       </div>
     </>
   );

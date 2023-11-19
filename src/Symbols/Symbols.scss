@@ -2,4 +2,12 @@
   margin: 0.75rem;
   border-radius: 1rem;
   background-color: rgb(2 21 72);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__x {
+    color: white;
+    font-size: 7rem;
+  }
 }
