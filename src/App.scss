@@ -5,22 +5,17 @@
 }
 
 body {
-  background-color: rgb(26, 50, 128);
   display: flex;
   justify-content: center;
-  align-items: center;
+  background-color: rgb(26, 50, 128);
 }
 
 .background {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   width: 40rem;
   height: 30rem;
   margin-top: 5rem;
+  border-radius: 1rem;
   background-color: rgb(4, 4, 43);
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-
-  &__grid {
-    margin: 1rem;
-    background-color: red;
-  }
 }
